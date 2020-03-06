@@ -20,8 +20,12 @@ def read_input():
         case = [N, arr]
         testcases.append(case)
         case_num += 1
-    return T, testcases input_res = read_input() T = input_res[0] 
-testcases = input_res[1] for i in range(0, T, 1):
+    return T, testcases 
+
+input_res = read_input() 
+T = input_res[0] 
+testcases = input_res[1] 
+for i in range(0, T, 1):
     case = testcases[i]
     N = case[0]
     arr = case[1]
