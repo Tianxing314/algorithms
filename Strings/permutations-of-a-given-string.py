@@ -1,5 +1,4 @@
-#https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0
-#code
+#https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0 code
 def permutation(i, string, dictionary):
     length = len(string)
     fixed = string[0:i]
@@ -22,8 +21,11 @@ def read_input():
         string = input()
         testcases.append(string)
         case_num += 1
-    return T, testcases input_res = read_input() T = input_res[0] testcases = input_res[1] for i in 
-range(0, T, 1):
+    return T, testcases 
+
+input_res = read_input() 
+T = input_res[0] 
+testcases = input_res[1] for i in range(0, T, 1):
     dictionary = {}
     string = testcases[i]
     permutation(0, string, dictionary)

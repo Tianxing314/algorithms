@@ -16,7 +16,11 @@ def reverse_words(words_arr):
         arr = input().split('.')
         testcases.append(arr)
         case_num += 1
-    return T, testcases input_res = read_input() T = input_res[0] 
-testcases = input_res[1] for i in range(0, T, 1):
+    return T, testcases 
+
+input_res = read_input() 
+T = input_res[0] 
+testcases = input_res[1] 
+for i in range(0, T, 1):
     arr = testcases[i]
     reverse_words(arr)
