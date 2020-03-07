@@ -25,7 +25,8 @@ def read_input():
 
 input_res = read_input() 
 T = input_res[0] 
-testcases = input_res[1] for i in range(0, T, 1):
+testcases = input_res[1]
+for i in range(0, T, 1):
     dictionary = {}
     string = testcases[i]
     permutation(0, string, dictionary)
