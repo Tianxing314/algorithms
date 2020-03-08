@@ -38,15 +38,15 @@ def longest_palindrome(string):
                 return string[i:i+palindrome_len]
 
 def read_input():
- T = int(input())
- testcases = []
- case_num = 0
+    T = int(input())
+    testcases = []
+    case_num = 0
 
- while (case_num+1) <= T:
-     string = input()
-     testcases.append(string)
-     case_num += 1
- return T, testcases
+    while (case_num+1) <= T:
+        string = input()
+        testcases.append(string)
+        case_num += 1
+    return T, testcases
 
 input_res = read_input()
 T = input_res[0]
