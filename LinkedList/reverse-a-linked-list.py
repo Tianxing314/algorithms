@@ -2,8 +2,6 @@
 # use self.head to access head in the method
 def reverseList(self):
     head = self.head
-    if self.head is None:
-        return None
     prev_node = None
     while(head is not None):
         next_node = head.next
@@ -12,8 +10,6 @@ def reverseList(self):
         head = next_node
     self.lastNode = self.head
     self.head = prev_node
-    
-    
 
 #{ 
 #  Driver Code Starts
