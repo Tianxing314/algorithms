@@ -1,3 +1,4 @@
+#https://practice.geeksforgeeks.org/problems/recursively-remove-all-adjacent-duplicates/0
 #code
 def remove_current_duplicate(string):
     stack = []
