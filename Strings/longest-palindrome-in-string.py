@@ -88,15 +88,16 @@ def read_input():
         case_num += 1
     return T, testcases
 
-input_res = read_input()
-T = input_res[0]
-testcases = input_res[1]
-for i in range(0, T, 1):
-    string = testcases[i]
-    #run dp solution
-#    N = len(string)
-#    table = [[2 for i in range(N)] for j in range(N)]
-#    print(longest_palindrome_dp(string))
+if __name__=='__main__':
+    input_res = read_input()
+    T = input_res[0]
+    testcases = input_res[1]
+    for i in range(0, T, 1):
+        string = testcases[i]
+        #run dp solution
+#        N = len(string)
+#        table = [[2 for i in range(N)] for j in range(N)]
+#        print(longest_palindrome_dp(string))
    
-    #run bf solution
-    print(longest_palindrome_bf(string))
+        #run bf solution
+        print(longest_palindrome_bf(string))

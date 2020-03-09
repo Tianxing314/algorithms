@@ -7,7 +7,9 @@ def reverse_words(words_arr):
     for i in range(1, length):
         res = res + '.' + words_arr[i]
     print(res)
-    return res def read_input():
+    return res 
+
+def read_input():
     T = int(input())
     testcases = []
     case_num = 0
@@ -18,9 +20,10 @@ def reverse_words(words_arr):
         case_num += 1
     return T, testcases 
 
-input_res = read_input() 
-T = input_res[0] 
-testcases = input_res[1] 
-for i in range(0, T, 1):
-    arr = testcases[i]
-    reverse_words(arr)
+if __name__=='__main__':
+    input_res = read_input() 
+    T = input_res[0] 
+    testcases = input_res[1] 
+    for i in range(0, T, 1):
+        arr = testcases[i]
+        reverse_words(arr)
